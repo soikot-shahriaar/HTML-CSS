@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Position</title>
+    <style>
+      .container {
+        background-color: greenyellow;
+      }
+      div {
+        height: 100px;
+        width: 100px;
+      }
+      #first {
+        background-color: blue;
+      }
+      #second {
+        background-color: red;
+        position: relative;
+        left: 100px;
+        top: 50px;
+      }
+      #third {
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>Learning Position in CSS</h1>
+      <ol>
+        <!-- Flow Related -->
+        <li>Static</li>
+        <li>relative</li>
+        <li>Absolute</li>
+        <!-- Scroll Related -->
+        <li>Fixed</li>
+        <li>Sticky</li>
+      </ol>
+    </section>
+
+    <section class="container">
+      <div id="first"></div>
+      <div id="second"></div>
+      <div id="third"></div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Please fill up the form</h2>
+        <form>
+            <label for="name">Your Name:
+                <input id="name" name="" type="text" placeholder="Enter Your Name Please!">
+            </label>
+            <label for="email">Your Email:
+                <input id="email" name="" type="text" placeholder="Enter Your Email Please!">
+            </label>
+            <label for="phone">Your Email:
+                <input id="phone" name="" type="text" placeholder="Enter Your Number Please!">
+            </label>
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>Pick Only One</legend>
+                <label for="mango"> <input type="radio" name="fruit" id="mango">mango</label>
+                
+                <label for="lichi"> <input type="radio" name="fruit" id="lichi">lichi</label>
+                
+                <label for="banana"> <input type="radio" name="fruit" id="banana">banana</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pick One or More</legend>
+                <label for="mango"> <input type="checkbox" name="fruit" id="mango">mango</label>
+                
+                <label for="lichi"> <input type="checkbox" name="fruit" id="lichi">lichi</label>
+                
+                <label for="banana"> <input type="checkbox" name="fruit" id="banana">banana</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <input type="reset" value="RESET">
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+    
+</body>
+</html>

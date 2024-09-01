@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pseudo Element</title>
+    <style>
+      h1::before {
+        content: "SHAHRIAR";
+        color: red;
+        font-size: 30px;
+        background-color: blue;
+      }
+      .special::after {
+        content: " soikot ";
+        font-size: 20px;
+        background-color: green;
+      }
+      p::before {
+        content: "❤️";
+      }
+      div::first-letter {
+        font-size: 2em;
+      }
+      div::first-line {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>pseudo class</h1>
+    <h1>normal class</h1>
+    <h1 class="special">elite class</h1>
+
+    <ul>
+      <p>Alia</p>
+      <p>Kalia</p>
+      <p>Malia</p>
+      <p>Dalia</p>
+      <p>Falaia</p>
+      <p>Salaia</p>
+    </ul>
+
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui expedita
+      dolorem quas ex? Corrupti voluptas quo sapiente dicta voluptates. Ipsum.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+header {
+  height: 300px;
+  background-image: url(image-love.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog {
+  background-color: blue;
+  border: 10px solid brown;
+  border-radius: 20px;
+  /* margin: 100px; */
+  /* margin: 20px 80px; TB RL */
+  /* margin: 10px 40px 80px; T RL B */
+  margin: 10px 40px 70px 90px; /* T R B L */
+  text-align: justify;
+  /* padding: 20px; */
+  /* padding: 20px 80px; TB RL */
+  /* padding: 10px 40px 80px; T RL B */
+  padding: 60px 40px 70px 40px; /* T R B L */
+  font-family: "Courier New", Courier, monospace;
+}
+/* *{margin: 0px;} */
+.id {
+  background-color: aqua;
+}
